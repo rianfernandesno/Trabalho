@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trabalho</title>
+</head>
+<body>
+    <!--Parte da navegação do site-->
+    <header>
+        <h1>RIAN</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                <li><a href="#formacao">FORMAÇÃO</a></li>
+                <li><a href="#portfolio">PORTFÓLIO</a></li>
+                <li><a href="#contato">CONTATO</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <!--Conteúdo do Site dividio em seções-->
+    <main>
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>Me chamo Rian e sou estudante de Ciência da Computação, com interesse em me tornar desenvolvedor (DEV). Atualmente, meu foco principal é no estudo de backend, utilizando Java e o framework Spring Boot. Além disso, gosto muito de jogar e aproveitar a vida ao máximo. No meu tempo livre, sempre tento passar tempo com meus amigos ou escutar músicas e fazer caminhadas.</p>
+        </section>
+        
+        <section id="formacao">
+            <h2>Minha Formação</h2>
+            <p>Estou cursando Ciência da Computação. Minha língua nativa é o português, mas tenho um nível básico/intermediário de inglês. Já realizei alguns cursos na Udemy, como os de Java do Nélio Alves, para aprimorar minhas habilidades de programação.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Meu Portfólio</h2>
+            <p>Não tenho um site especifico para projetos mas tenho alguns projetos que estou fazendo/fiz presente no github <br>
+            <a href="https://github.com/rianfernandesno/dscatalog" target="_blank">Um Catalogo de vendas</a> <br>
+            <a href="https://github.com/rianfernandesno/todo-list" target="_blank">todo-list</a></p>
+        </section>
+
+       <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+</section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
